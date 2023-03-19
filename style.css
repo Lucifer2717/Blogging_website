@@ -1,6 +1,21 @@
 .Title{
-    border: 2px solid black;
-    align-content: center;
+    height: auto;
+    width: auto;
+    border-radius: 7px;
+    background-color: #1d1b1b;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
+}
+.title{
+
+    border: 2px solid red;
+    height: 80px;
+    width: 500px;
+    padding: 1px;
+    color: antiquewhite;
+    text-decoration:underline;
+    text-align: center;
+
 }
