@@ -1,4 +1,5 @@
 .Title{
+    padding: 10px;
     height: auto;
     width: auto;
     border-radius: 7px;
@@ -6,6 +7,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    display: flex;
     
 }
 .title{
@@ -13,9 +15,41 @@
     border: 2px solid red;
     height: 80px;
     width: 500px;
-    padding: 1px;
     color: antiquewhite;
     text-decoration:underline;
     text-align: center;
 
+}
+
+.main_body{
+    margin-top: 10px;
+    height: 500px;
+    width: auto;
+    border: 2px solid rebeccapurple;
+    background-color: #1d1b1b;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blogging_content{
+    border: 2px solid blue;
+    border-radius: 7px;
+    padding: 10px;
+    width: auto;
+    height:auto;
+    background-color: rgb(36, 37, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(122, 126, 126);
+    margin: 7px;
+    
 }
