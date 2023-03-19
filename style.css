@@ -18,12 +18,13 @@
     color: antiquewhite;
     text-decoration:underline;
     text-align: center;
+    flex-wrap: wrap;
 
 }
 
 .main_body{
     margin-top: 10px;
-    height: 500px;
+    height: auto;
     width: auto;
     border: 2px solid rebeccapurple;
     background-color: #1d1b1b;
@@ -34,6 +35,7 @@
     flex-wrap: wrap;
 }
 .blogging_content{
+    margin: 20px;
     border: 2px solid blue;
     border-radius: 7px;
     padding: 10px;
@@ -43,13 +45,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .boxes{
-    display: flex;
-    flex-wrap: wrap;
     width: 200px;
     height: 200px;
     background-color: rgb(122, 126, 126);
     margin: 7px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
     
 }
