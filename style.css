@@ -11,9 +11,9 @@ body{
     align-items: center;
     flex-wrap: wrap;
     display: flex;
-    margin: 20px;
-    
+    margin: 20px;    
 }
+
 .title{
     border-radius: 7px;
     border: 2px solid gray;
@@ -23,7 +23,6 @@ body{
     text-decoration:underline;
     text-align: center;
     flex-wrap: wrap;
-
 }
 
 .main_body{
@@ -39,6 +38,7 @@ body{
     flex-wrap: wrap;
     margin: 20px;
 }
+
 .blogging_content{
     margin: 20px;
     border: 2px solid gray;
@@ -52,6 +52,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .boxes{
     border-radius: 7px;
     width: 400px;
@@ -62,8 +63,7 @@ body{
     align-items: center;
     justify-content: center;
     color: aliceblue;
-    flex-wrap: wrap;
-       
+    flex-wrap: wrap;   
 }   
 
 .footer{
@@ -85,10 +85,15 @@ body{
     color: aliceblue;
     display: flex;
     align-items: center;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 7px;
     padding: 10px;
-    margin-inline: 50px;
+    margin-inline: 90px;
     display: inline;
     text-align: center;
+}
+
+.sub_footer p{
+    margin-top: 15px;
+    margin-bottom: 2px;
 }
