@@ -84,13 +84,13 @@ body{
     display: flex;
     align-items: center;
     border-radius: 7px;
-    padding: 10px;
+    padding: 20px;
     margin-inline: 90px;
-    display: inline;
     text-align: center;
+    flex-direction: column;
 }
 
 .sub_footer p{
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 2px;
 }
